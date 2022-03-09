@@ -15,3 +15,6 @@ Conteúdos extras
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 https://www.alura.com.br/artigos/operadores-matematicos-em-javascript
+
+
+Caso tenha interesse em ver como o projeto ficou: https://igorsantiiago.github.io/imersaoDevAula03Mentalista/
