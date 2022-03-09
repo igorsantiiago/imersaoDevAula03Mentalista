@@ -1,0 +1,155 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    background: linear-gradient(135deg, hsl(348, 97%, 63%, 0.65), hsl(230, 96%, 62%, 0.65)), #000000;
+}
+
+.container {
+    text-align: center;
+    padding-top: 5vh;
+    margin: auto;
+    height: 95vh;
+    width: 60vw;
+    background-color: hsl(0, 0%, 7%, 0.65);
+}
+
+.page-logo {
+    width: 600px;
+}
+
+.page-title {
+    color: #f1f1f1;
+    margin: 5vh 0 5px;
+    font-size: 3rem;
+}
+
+.page-subtitle {
+    color: #f1f1f1;
+    margin-top: 16px;
+    font-size: 1.3rem;
+}
+
+.alura-logo {
+    position: absolute;
+    width: 40px;
+    top: 10px;
+    right: 10px;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 2vh 5vw;
+    border-radius: 10px;
+    background: linear-gradient(270deg, hsl(348, 97%, 63%, 0.65), hsl(230, 96%, 62%, 0.65));
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: none;
+    transition: 0.5s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 0.5;
+    transform: scale(0.9);
+    transition: 0.1s all;
+}
+
+.resultado, .limite {
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: 16px;
+}
+
+@media (min-width: 320px) {
+
+    .container {
+        height: 95vh;
+        width: 90vw;
+    }
+
+    .page-logo {
+        width: 300px;
+    }
+
+    .page-title {
+        margin: 8vh 0 3px;
+        font-size: 2.5rem;
+    }
+
+    .page-subtitle {
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+    .alura-logo {
+        width: 40px;
+        top: 10px;
+        right: 40px;
+    }
+
+    input {
+        font-size: 1.3rem;
+    }
+
+    .resultado, .limite {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .alura-logo {
+        width: 60px;
+        top: 10px;
+        right: 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        height: 95vh;
+        width: 60vw;
+    }
+
+    .page-logo {
+        width: 600px;
+    }
+
+    .page-title {
+        margin: 5vh 0 5px;
+        font-size: 3rem;
+    }
+
+    .page-subtitle {
+        margin-top: 16px;
+        font-size: 1.3rem;
+    }
+
+    .alura-logo {
+        width: 90px;
+        top: 30px;
+        right: 30px;
+    }
+
+    input {
+        font-size: 1.5rem;
+    }
+
+    .resultado, .limite {
+        font-size: 1.4rem;
+    }
+}
