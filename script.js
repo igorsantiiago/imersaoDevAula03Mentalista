@@ -43,11 +43,6 @@ function configFimDeJogo() {
 function reiniciar() {
     limiteTentativas = 3;
     tentativas = 1;
-
-    var reiniciarParas = document.querySelectorAll('.resultadoParas p');
-    for (var i = 0 ; i < reiniciarParas.length ; i++) {
-      reiniciarParas[i].textContent = '';
-    }
   
     valor.disabled = false;
     botao.disabled = false;
